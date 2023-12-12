@@ -1,66 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Website</title>
-    <style>
-        /* Add your styles here */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-        nav {
-            background-color: #555;
-            padding: 0.5em;
-            text-align: center;
-        }
-        section {
-            padding: 1em;
-        }
-        article {
-            margin-bottom: 1em;
-            border: 1px solid #ddd;
-            background-color: white;
-            padding: 1em;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Your Video Blog</title>
 </head>
 <body>
-    <header>
-        <h1>News Website</h1>
-    </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Politics</a>
-        <a href="#">Technology</a>
-        <a href="#">Entertainment</a>
-    </nav>
-    <section>
-        <article>
-            <h2>Breaking News</h2>
-            <p>This is the content of the news article.</p>
-            <img src="news-image.jpg" alt="News Image">
-            <button>Read More</button>
-        </article>
-        <!-- Add more articles as needed -->
-    </section>
-    <footer>
-        <p>&copy; 2023 News Website. All rights reserved.</p>
-    </footer>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Videos</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Your Video Blog</h1>
+    <p>Welcome to the best video blog on the internet!</p>
+  </header>
+
+  <!-- Content Area -->
+  <section id="content">
+    <!-- Video Section -->
+    <div class="video">
+      <h2>Featured Video</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <!-- Image Section -->
+    <div class="image">
+      <h2>Latest Images</h2>
+      <img src="image1.jpg" alt="Image 1">
+      <img src="image2.jpg" alt="Image 2">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Your Video Blog. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript (for any dynamic behavior) -->
+  <script src="script.js"></script>
 </body>
 </html>
